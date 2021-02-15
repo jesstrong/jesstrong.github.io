@@ -14,7 +14,7 @@ body {
     background-image: url("images/background2.jpg");
     width: 80%;
     text-align: center;
-    padding-left: 20em;
+    padding-left: 15em;
     background-attachment: fixed;
 }
 
@@ -36,11 +36,15 @@ header {
 
 header h1 {
     font-size: 3em;
+    align-items: center;
+    padding-left: .5em;
 }
 
 header span {
     font-size: 1.5em;
-    color: #999;
+    color: rgb(31, 29, 29);
+    align-items: center;
+    padding-left: .5em;
 }
 nav {
     position: fixed; 
@@ -84,12 +88,15 @@ h2 {
     text-align: center;
 }
 
-
+#h2 {
+    text-align: center;
+    padding-right: 3em;
+}
 #about {
     text-align: left;
     background-color: #D4AB32;
     border-radius: 7px;
-    opacity: 80%;
+    opacity: 90%;
     margin: 2rem auto;
     padding-bottom: 5em;
      
@@ -105,6 +112,7 @@ h2 {
 
 .projects {
     display: grid;
+    color: rgb(31, 29, 29);
 }
 
 #projects article {
@@ -125,16 +133,16 @@ h2 {
     text-align: center;
     background-color: #7493E6;    
     border-radius: 7px;
-    opacity: 80%;
+    opacity: 90%;
     list-style: none;
     margin: 2 rem auto; 
+    color:rgb(31, 29, 29);
     
 }
 
-
 #icons {
     display: flex;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     align-items: center;
 }
 
