@@ -135,14 +135,14 @@ h2 {
 }
 
 #projects article img {
-    width: 25%; 
+    width: 50%; 
     border: 1px solid #333; 
 }
 
 #contactInfo {
     text-align: center;
     background-color: #7493E6;    
-    border-radius: 7px;
+    border-radius: 550px;
     opacity: 90%;
     list-style: none;
     margin: 2 rem auto; 
